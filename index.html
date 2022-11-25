@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
+    <title>BaseGames★</title>
+</head>
+<body>
+    <header class="menu">
+        <nav class="menu-nav">
+            <section class="banner">
+                <h1>Base Games★</h1>
+                <img src="./img/emoticon.png" alt="controle de Video Games">        
+            </section>
+            <div class="butonMenu">
+                <li class="menuTodos">
+                        <a href="#">Todos</a>
+                </li>  
+                <li class="menuGames">
+                        <a href="#">Games</a>
+                </li>
+                <li class="menuAcessarios">
+                        <a href="#">Acessórios</a>
+                </li>
+                <li class="menuContatos">
+                        <a href="#">Contatos</a>
+                </li>
+            </div>
+        </nav>
+    </header>
+    <section class="conteudo">
+        <main class="tela">
+        </main>
+            <section class="barraPesquisa">
+                <input class="inputPesquisa" type="text" placeholder="Digite aqui sua pesquisa" required>
+                <button id="botaoPesquisa">Pesquisar</button>
+               
+                <section class="carrinho">
+                    <h2 class="titulo">Carrinho de compras</h2>
+                    <div class="listaProdutos">
+
+
+                        <ul class="ulCarrinho">
+                        </ul> 
+                        
+                    </div>
+                    <div class="precoFinal">
+                        <div>
+                            <p>Quantidade:</p>
+                            <p class="totalItens"></p>
+                        </div>
+                        <div>
+                            <p>Total:</p>
+                            <p class="totalValor"></p>
+                        </div>
+                    </div>    
+                </section>
+            </section>
+        </section>
+        
+    </body>
+</html>

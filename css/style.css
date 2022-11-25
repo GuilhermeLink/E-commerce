@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    max-width: 1603px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    background-color: #202020;;
+    overflow-x: scroll; 
+}
+
+.menu {
+    width: 1603px;
+    height: 80px;
+    position: fixed;
+    background-color: #c6bcbc;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #0f0f0f;
+    
+}
+
+.menu-nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 50px -10px rgba(128, 255, 175, 0.25);
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    background-color: #b5b5b5;
+    text-align: center;
+    margin-left: 118px;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 24px;
+    color: #292929;
+    width: 210px;
+    padding: 5px;
+    border: solid #292929;
+    border-radius: 10px;
+}
+
+.banner img {
+    width: 40px;
+    margin-left: 5px;
+}
+
+.butonMenu {
+    display: flex;
+    list-style:none 
+      
+}
+
+
+.butonMenu li {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px;
+    text-align: center;
+    border: solid 5px transparent;
+    border-radius: 8px;
+    transition: 0.5s; 
+    cursor: pointer;
+}
+
+.butonMenu li:hover{
+    border: solid 5px #2E245E;
+    border-radius: 8px;
+    transition: 0.5s; 
+}
+
+.menuTodos {
+    font-weight: 600;
+}
+
+.menuTodos a, .menuGames a, .menuAcessarios a, .menuContatos a {
+    color: #b5b5b5;
+    transition: 0.5s; 
+}
+
+
+.menuTodos a:hover, .menuGames a:hover, .menuAcessarios a:hover, .menuContatos a:hover {
+    color: #2E245E;
+    transition: 0.5s; 
+}
+
+.menuContatos {
+    margin-right: 97px;
+}
+
+.conteudo {
+    width: 1603px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tela {
+    width: 1140px;
+    margin-top: 122px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.card {
+    margin-left: 40px;
+    margin-bottom: 22px;
+    border: solid 5px transparent;
+    border-radius: 8px;
+    transition: 0.6s;
+
+}
+
+.card:hover {
+    border: solid 5px yellowgreen;;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+.card img {
+    width: 191px;
+    height: 140px;
+    align-items: center;
+}
+
+.card .box {
+    width: 296px;
+    height: 154px;
+    border-radius: 8px;
+}
+
+.box img {
+    width: 285px;
+    height: 190px;
+    padding: 5px;
+    background-color: #e1e0e0;
+    
+}
+
+.descricao {
+    background-color: #b5b5b5;
+    border-radius: 8px;
+    margin-top: 40px;
+    width: 290px;
+    height: 254px;
+    border: solid #e1e0e0;;
+}
+
+
+.descricao button {
+    color: #2E245E;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 4px;
+    border: solid 2px #2E245E;
+    border-radius: 8px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.descricao button:hover {
+    color: yellowgreen;
+    border: solid 2px yellowgreen;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+.setor {
+    width: 63px;
+    height: 0px;
+    background-color: #2E245E;
+    color: #FFFFFF;
+    padding: 12px 5px;
+    gap: 10px;
+    margin: 15px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tituloJogos {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 15px;
+}
+
+.descricao p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 15px;
+}
+
+.preco {
+    color: #2E245E;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 15px;
+}
+
+main button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #242424;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.barraPesquisa {
+    margin-top: 122px;
+    margin-right: 115px;
+    width: 350px;
+}
+
+.barraPesquisa input {
+    width: 232px;
+    height: 50px;
+    padding-left: 14px;
+    background-color:  #F5F5F5;
+    border: 1px solid #F5F5F5;  
+}
+
+.barraPesquisa button {
+    width: 96px;
+    height: 52px;
+    background-color: #2E245E;;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    border: solid 5px transparent;
+    border-radius: 8px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.barraPesquisa button:hover {
+    color: yellowgreen;
+    border: solid 5px yellowgreen;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+.titulo {
+    border-radius: 8px 8px 0px 0px;
+    width: 360px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 27px;
+    background-color: #37268C;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .listaProdutos {
+    margin: 0;
+    width: 360px;
+    height: 329px;
+    background-color: #F5F5F5;
+    overflow-y: scroll;
+}
+
+
+section .listaProdutos ul {
+    margin-left: 7px;
+}
+
+section .listaProdutos section.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 0;
+}
+
+section .listaProdutos .ulCarrinho .card{
+    padding-bottom: 10px;
+}
+
+section .listaProdutos div.box {
+    display: flex;
+    justify-items: center;
+    width: 130px;
+    height: 130px;
+}
+
+.listaProdutos div.box img {
+    border: solid 5px #393939;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.listaProdutos section.descricao {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 150px;
+    margin: 0px;
+    border: none;
+}
+
+.listaProdutos section.descricao div, .listaProdutos section.descricao button{
+    margin: 8px;
+}
+
+
+.listaProdutos div.setor, .listaProdutos p {
+    display: none;
+}
+
+.listaProdutos img{
+    width: 88px;
+    height: 78px;
+    padding-top: 10px;
+}
+
+.listaProdutos button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    color: #2E245E;
+    font-weight: bold;
+    width: 115px;
+    height: 24px;
+    font-size: 12px;
+    padding: 4px;
+    border: solid 2px #2E245E;
+    border-radius: 8px;
+    transition: 0.6s;
+    margin-top: 10px;
+}
+
+.listaProdutos button:hover {
+    color: yellowgreen;
+    border: solid 2px yellowgreen;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+.listaProdutos h2 {
+    width: 176px;
+    height: 24px;
+    padding-top: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.listaProdutos .precos {
+    color: #2E245E;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/*.listaProdutos div {
+    margin-left: 14px;
+}*/
+
+.precoFinal {
+    background-color: #393939;
+    color: #FFFFFF;
+    width: 360px;
+    height: 126px;   
+}
+
+.precoFinal div {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.precoFinal p {
+    margin: 0;
+    margin-left: 14px;
+    padding-top: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
